@@ -223,7 +223,7 @@ class SupervisedLearning(BaseInterface):
       self.amITrained = True
       self.muAndSigmaFeatures = dict((f, (0,1)) for f in self.features)
 
-  def tainOnDictionary(self, tdict, indexMap):
+  def trainOnDictionary(self, tdict, indexMap):
     """
       Translates the incoming data as a dictionary into numpy arrays
       @ In, tdict, dict, training dictionary
